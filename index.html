@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blade | Roblox 3D Modeler</title>
+  <meta name="description" content="Portfolio website for Blade, a Roblox 3D modeler with 5 years of experience and contributions across major frontpage games." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Blade</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Games</a>
+        <a href="#gallery">Models</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Roblox 3D Modeler</p>
+        <h1>Blade</h1>
+        <p class="lead">
+          5 years of modeling experience working on some of Roblox’s most popular frontpage games and building game-ready assets with strong presentation.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary equal-button" href="#gallery">View My Work</a>
+          <a class="button secondary equal-button" href="https://discord.gg/heeC3NgT" target="_blank" rel="noopener noreferrer">Discord Portfolio</a>
+        </div>
+        <ul class="stats">
+          <li><strong>5+</strong><span>Years experience</span></li>
+          <li><strong>4.6 Billion</strong><span>Visits across all my Contributions</span></li>
+          <li><strong>Anything</strong><span>I can model anything and everything</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-card hero-banner">
+        <img src="assets/action_shot.png" alt="Stylized Roblox action render." />
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+      </div>
+      <div class="about-grid">
+        <div class="panel">
+          <p>
+            I have <strong>5 years of modeling experience</strong> and have worked on some of Roblox’s most popular frontpage games like
+            <strong>Jujutsu Shenanigans</strong>, <strong>Legends Battlegrounds</strong>, <strong>Dummy Counter Your Friends</strong>, and
+            <strong>Azure Latch</strong>.
+          </p>
+          <p>
+            My work covers characters, monsters, props, clothing pieces, polished showcase renders, and production-ready assets built for anime-inspired and action-heavy projects.
+          </p>
+        </div>
+
+        <div class="panel checklist">
+          <h3>What I can model</h3>
+          <ul>
+            <li>Characters, creatures, props, clothing, and environment assets</li>
+            <li>Stylized and game-ready models for any kind of project</li>
+            <li>High-impact showcase renders and presentation pieces</li>
+            <li>Basically anything and everything you need modeled</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Experience</p>
+        <h2>Games and projects</h2>
+      </div>
+      <div class="game-grid" id="gameGrid">
+        <a class="game-card panel shuffle-item" href="https://www.roblox.com/games/94647229517154/Azure-Latch" target="_blank" rel="noopener noreferrer">
+          <img src="assets/azure_latch_game.png" alt="Azure Latch game artwork." />
+          <div class="game-meta">
+            <span class="game-title">Azure Latch</span>
+            <small>435.3M+ visits</small>
+          </div>
+        </a>
+        <a class="game-card panel shuffle-item" href="https://www.roblox.com/games/9391468976/Jujutsu-Shenanigans" target="_blank" rel="noopener noreferrer">
+          <img src="assets/jujutsu_shenanigans_game.png" alt="Jujutsu Shenanigans game artwork." />
+          <div class="game-meta">
+            <span class="game-title">Jujutsu Shenanigans</span>
+            <small>4.3B+ visits</small>
+          </div>
+        </a>
+        <a class="game-card panel shuffle-item" href="https://www.roblox.com/games/15269951959/Legends-Battlegrounds" target="_blank" rel="noopener noreferrer">
+          <img src="assets/legends_battlegrounds_game.png" alt="Legends Battlegrounds game artwork." />
+          <div class="game-meta">
+            <span class="game-title">Legends Battlegrounds</span>
+            <small>412.1M+ visits</small>
+          </div>
+        </a>
+        <a class="game-card panel shuffle-item" href="https://www.roblox.com/games/128662368175518/DUMMY-COUNTER-YOUR-FRIENDS" target="_blank" rel="noopener noreferrer">
+          <img src="assets/dummy_counter_friends_game.png" alt="Dummy Counter Your Friends game artwork." />
+          <div class="game-meta">
+            <span class="game-title">Dummy Counter Your Friends</span>
+            <small>107.6M+ visits</small>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="gallery" class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Recent models</h2>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <figure class="panel gallery-card shuffle-item">
+          <button class="image-button" type="button" data-full="assets/dragon.png" data-title="Dragon">
+            <img src="assets/dragon.png" alt="Dragon model render." />
+          </button>
+          <figcaption><h3>Dragon</h3></figcaption>
+        </figure>
+
+        <figure class="panel gallery-card shuffle-item">
+          <button class="image-button" type="button" data-full="assets/masked_avatar.png" data-title="Okarun R15 model">
+            <img src="assets/masked_avatar.png" alt="Okarun R15 model render." />
+          </button>
+          <figcaption><h3>Okarun R15 model</h3></figcaption>
+        </figure>
+
+        <figure class="panel gallery-card shuffle-item">
+          <button class="image-button" type="button" data-full="assets/yellow_jacket.png" data-title="David R15 Model">
+            <img src="assets/yellow_jacket.png" alt="David R15 Model render." />
+          </button>
+          <figcaption><h3>David R15 Model</h3></figcaption>
+        </figure>
+
+        <figure class="panel gallery-card shuffle-item">
+          <button class="image-button" type="button" data-full="assets/cloth_props.png" data-title="Garou Bandages">
+            <img src="assets/cloth_props.png" alt="Garou Bandages model render." />
+          </button>
+          <figcaption><h3>Garou Bandages</h3></figcaption>
+        </figure>
+
+        <figure class="panel gallery-card shuffle-item">
+          <button class="image-button" type="button" data-full="assets/phoenix_sculpt.png" data-title="Azure Latch skull model">
+            <img src="assets/phoenix_sculpt.png" alt="Azure Latch skull model render." />
+          </button>
+          <figcaption><h3>Azure Latch skull model</h3></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <div class="cta panel">
+
+<div class="discord-card">
+  <img src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Discord Avatar" />
+  <div class="discord-info">
+    <h3>Blade</h3>
+    <p>Click to view my Discord profile</p>
+    <a href="https://discordapp.com/users/728228412757639248" target="_blank">Open Profile</a>
+  </div>
+</div>
+
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Need a modeler for your Roblox project?</h2>
+          <p>
+            Reach out through Discord to view more work, talk about your project, or discuss commissions.
+          </p>
+        </div>
+        <div class="cta-actions stacked">
+          <a class="button primary equal-button" href="https://discord.gg/heeC3NgT" target="_blank" rel="noopener noreferrer">Discord Portfolio</a>
+          <a class="button secondary equal-button" href="https://discordapp.com/users/728228412757639248" target="_blank" rel="noopener noreferrer">Discord Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">×</button>
+    <div class="lightbox-inner">
+      <img id="lightboxImage" src="" alt="" />
+      <p id="lightboxTitle"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
